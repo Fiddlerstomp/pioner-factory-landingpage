@@ -17,6 +17,10 @@
     font-family: "Source Sans 3", sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 ul {
     list-style: none;
 }
@@ -82,4 +86,8 @@ ul {
 .header__call::before {
     content: url("/assets/img/phone.svg");
     margin-right: 4px;
+}
+
+.nav__link {
+    color: var(--color-dark);
 }
