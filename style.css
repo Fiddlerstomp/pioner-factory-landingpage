@@ -61,6 +61,7 @@ ul {
     color: var(--color-accent);
     font-weight: 600;
     font-size: 20px;
+    border-bottom: solid 1px var(--color-accent);
 }
 
 .header__bottom {
@@ -84,7 +85,7 @@ ul {
 }
 
 .header__call::before {
-    content: url("/assets/img/phone.svg");
+    content: url("./assets/img/phone.svg");
     margin-right: 4px;
 }
 
